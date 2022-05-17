@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #5a3e28;
+}
+
+#logo{
+    text-align: center;
+    margin-top: 80px;
+}
+#logo img{
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;    
+    border-color: #A17554;
+    border-width: 5px;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: #A17554;
+    position: relative;
+    margin-top: 20px;
+    box-shadow:inset 0px -10px 10px #FDEEFE;
+}
+.menu ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin-right: 100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a:hover{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: #A17554;
+    text-transform: uppercase;
+    transition: 0.3s;
+    border-width: 10px;
+    border-style: solid;
+    font-family: cursive;
+}
+.menuProduto{
+    background-color: #FDEEFE;
+    width: 300px;
+    height: 700px;
+    text-align: center;
+    margin-top: -22px;
+    float: left;
+    box-shadow: inset -100px 0px 100px #A17554;
+}
+.menuProduto li{
+    list-style: none;
+    position: relative;
+    top: 15px;
+    padding-top: 15px;
+    right: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#oferta{
+    width: 50%;
+    height: 400px;
+    background-color: #FDEEFE;
+    position: relative;
+    left: 650px;
+    top: 150px;
+    text-align: center;
+    box-shadow: inset -10px 10px 50px #A17554, -10px 10px 50px #A17554;
+    font-family: cursive;
+}
+#nossaHistoria{
+    width: 80%;
+    text-align: justify;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    top: 50%;    
+    transform: translateY(-50%);
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #A17554;
+    clear: left;
+    box-shadow: 0px -20px 100px #A17554;
+    position: relative;
+    top: 33px;
+}
+#redesSociais {
+   margin-left: 38%;
+}
+#redesSociais li{
+    list-style: none;
+    float: left;
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+#redesSociais img{
+    width: 30px;
+}
+footer p{
+    text-align: center;
+    clear: left;
+    font-size: larger;
+}
+.formulario{
+    width: 700px;
+    height: 900px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+.formulario legend{
+    font-size: 20px;
+    font-family: fantasy;
+    color: #5a3e28;
+    letter-spacing: 2px;
+}
+
+fieldset{
+    border-color: #A17554;
+    border-width: 10px;
+    box-shadow: 10px 10px 100px #A17554;
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-size: medium;
+    font-family: cursive;
+    color: #A17554;
+    letter-spacing: 2px;
+}
+.caixa{
+    border-color: #5a3e28;
+}
+.botao{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: cursive;
+    font-size: 25px;
+    background-color: #5a3e28;
+    border-width: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #A17554;
+}
+#loja{
+    width: 1350px;
+    height: 2000px;
+    background-color: #FDEEFE;
+    position: relative;
+    left: 450px;
+    top: 50px;
+    box-shadow: inset -10px 10px 50px #A17554, -10px 10px 50px #A17554;
+}
+#loja fieldset{
+    cursor: pointer;
+}
+#loja img{
+    border-radius: 50%;
+    box-shadow: 15px 15px 5px #5a3e28;
+}
+#loja h1, h2{
+    text-align: center; 
+    font-family: cursive; 
+    color: #5a3e28;  
+}
+#itens ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#itens img{
+    width: 100px;
+}
+
+#itens2 ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left:250px;
+    
+}
+#itens2 img{
+    width: 100px;
+}
+#itens3 ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 450px;
+    
+}
+#itens3 img{
+    width: 100px;
+}
+#itens4 ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 650px;
+    
+}
+#itens4 img{
+    width: 100px;
+}
+#itens5 ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 850px;
+    
+}
+#itens5 img{
+    width: 100px;
+}
+#itens6 ul{
+    list-style: none;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 1050px;
+    
+}
+#itens6 img{
+    width: 100px;
+}

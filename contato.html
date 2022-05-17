@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtesMariaLopes</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="Imagem/logo.jpg" alt="ArtesMariaLopes"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#nossaHistoria">Nossa história</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="formulario">
+            <form method="get">
+                <fieldset>
+                    <legend>Preencha os campos e deixe a sua mensagem</legend>
+                    <label class="titulo" for="nomesobrenome">Nome e Sobrenome:</label><br>
+                    <input class="caixa" type="text" placeholder="Nome e Sobrenome"><br><br><br>
+                    <label class="titulo"  for="email">Email:</label><br>
+                    <input class="caixa" type="email" placeholder="Ex: seuemail@gmail.com" required><br><br><br>
+                    <label class="titulo"  for="telefone">Telefone:</label><br>
+                    <input class="caixa" type="tel" placeholder="Ex (99) 99999-9999" required><br><br><br>
+                    <label class="titulo"  for="mensagem">Mensagem:</label><br>
+                    <textarea class="caixa" cols="70" rows="10" required placeholder="Digite sua mensagem"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label class="titulo"  for="radio-telefone"><input type="radio">Telefone</label>
+                    <label class="titulo"  for="radio"><input type="radio" checked >Whatsapp</label>
+                    <label class="titulo"  for="radio-email"><input type="radio">Email</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Que horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                <input id="enviar" type="submit" value="Enviar Formulário" class="botao"><br><br>
+                </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div id="redesSociais">
+            <ul>
+                <li><a href="https://pt-br.facebook.com/"><img src="Imagem/facebook.png"></a></li>
+                <li><a href="https://www.whatsapp.com/"><img src="Imagem/watt.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com"><img src="Imagem/instagram.png" alt=""></a></li>
+            </ul>
+        </div>
+        <p>© 2022 ArtesMariaLopes..</p>
+    </footer>
+</body>
+</html>
